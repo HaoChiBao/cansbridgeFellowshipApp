@@ -107,7 +107,7 @@ const  App = () => {
 
         <div className='theSite'>
           <h3>About this site</h3>
-          <p>This site was created for <b>James Yang's</b> 2024 cohort Cansbridge Fellowship Application. Made and styled completely made from scratch (meaning from nothing, not the programming language).</p>
+          <p>This site was created for <b>James Yang's</b> 2024 cohort Cansbridge Fellowship Application. Made and styled completely made from scratch (meaning from nothing, not the programming language) and no boilerplate .</p>
           <p></p>
         </div>
 
@@ -116,6 +116,14 @@ const  App = () => {
           <p className='idea'>
             The idea of this site is to get a few more words in than the application would allow me. Theres a chance no one is even reading this...
           </p>
+
+          <div className = "why">
+           <h3>Why do I want to be a Cansbridge Fellow?</h3>
+           <iframe id = "myvideo" width="1583" height="741" src="https://www.youtube.com/embed/sGCsnVjODAc" title="James Yang&#39;s Cansbridge Application" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
+
+
           <div className='aboutText'>
             <p>I discovered the Cansbridge Fellowship in a funny way. I got an email promising free food.</p>
             <p>After listening to the alumni fellows and William Yu speak, I fell in love 💖 Never have I been so inspired, motivated, synonym.</p>
@@ -128,26 +136,54 @@ const  App = () => {
               <img src={william} alt='william' />
             </div>
 
+            <p>Out of all the amazing speeches and testimonies from William and different fellows this quote stood out to me. It stood out because it was funny and oddly motivating. Most importantly it displayed confidence, and individuality. I mean seriously, who talks like that? I loved it, I want a piece of that confidence</p>
+            <p>Communication was one of the biggest problems I used to have. Public speaking mainly. I still have trouble with it. Whenever I'm given the chance I try to improve this skill. I've recently become acquitted to my "Vocal Image." I focus on taking strong pauses instead of saying "um" and "uh". One of the biggest things I am looking to improve by being apart of this fellowship, is my Communication skills  </p>
             <p>It's hard for me to place myself outside of my comfort zone and this fellowship would force me to push way past the extent I'm usually comfortable with.</p>
-            <p></p>
           </div>
         </div>
 
-        <div className='questions'>
-          <h3>Tell us about a time you failed and how you handled it?</h3>
-          <p>I failed to get into Waterloo computer science, here’s how I handled it. Being a second-generation Chinese Canadian my parents have high expectations. I can’t count all the outside classes and lessons I’ve received. I did other things too. I played volleyball outside of school for 5 years. I absolutely loved playing but stopped in grade 12. So, I could focus on my studies. Studying computer science, Waterloo seemed like the best on paper. I applied to my “dream university,” and others. Finally, all my EXPECTATIONS weighed against REALITY. Was I good enough to get in? No. I was rejected. It really hurt getting rejected, mostly because school was “THE GRAND” measure of success. What do I do now? I started taking time to focus on my presence outside of school. I made apps and started playing volleyball again. I stopped seeking validation from school, and started thinking about how the concepts I learn in school can be used outside of school. I carried this mindset into my first year at Western University, I joined clubs. I won hackathons. I made a network of friends. I turned Western into my “dream university.”</p>
-        </div>
-        <div className='questions'>
-          <h3>What is something you could talk about for hours?</h3>
-          <p>Baymax. I could talk about Baymax for hours. Baymax is an animated character from the movie Big-Hero 6. He’s a robot, capable of diagnosing health conditions, holding a conversation, and being a cuddly buddy. Why can I talk about him for hours? Because it’s my dream to make him in real life. With regards to my education, I often measure myself by thinking “How close am I to making Baymax.” I’m even planning on doing a dual-degree with CS and Mechatronics. There are some unrealistic features to his design, like his ability to fly, but my goal is to start off small. If I can give him the ability to fly, I can basically do anything, right? Regardless of feasibility I write down every idea that comes into my head on a Notion page, regarding the materials, software, and hardware that is required. Interestingly, Baymax is being built at Carnegie Mellon University, but my only gripe is that it pays zero attention to the original design. I think somewhere along the way, they focused on feasibility over design. I believe they lost the spirit of the project, which is something I want to fix when I start developing.</p>
-        </div>
-        <div className='questions'>
-          <h3>What scares you?</h3>
-          <p>I’m scared of dying. No, I lied. I’m scared of dying with regrets. Perhaps that’s not right either. It’s hard to believe that nobody dies without any regrets. I don’t want to wake up one day and regret not taking action with my life. The scariest part about it, is not knowing it’s happening. Overtime I may slowly become complacent, lose my ambition, and have my dreams stay as fantasies. I’m pursing computer science and engineering because I enjoy developing apps and creating unconventional products for myself. I’m developing my technical skills to create solutions for problems that I find in my life. A dream of mine is designing and developing one of these products and having it used by everyone in North America. Do I know where to start? No. Will I probably fail? Yes. Do I have the courage to try? Yes (: Losing the ambition to ideate on my ideas would become my greatest regrets in the future. As scary as this sounds, I’m grateful to say that I’m surrounded by an abundance of hard-working and ambitious friends. So, for now I’ll focus on what I’m doing in the present and worry less about the future.</p>
+        
+        <div className='applicationQuestions'>
+        
+          <div className='questionsTitle'>
+            Application answers
+          </div>
+
+          <div className='questions'>
+            <h3>Tell us about a time you failed and how you handled it?</h3>
+            <p>I failed to get into Waterloo computer science, here’s how I handled it. Being a second-generation Chinese Canadian my parents have high expectations. I can’t count all the outside classes and lessons I’ve received. I did other things too. I played volleyball outside of school for 5 years. I absolutely loved playing but stopped in grade 12. So, I could focus on my studies. Studying computer science, Waterloo seemed like the best on paper. I applied to my “dream university,” and others. Finally, all my EXPECTATIONS weighed against REALITY. Was I good enough to get in? No. I was rejected. It really hurt getting rejected, mostly because school was “THE GRAND” measure of success. What do I do now? I started taking time to focus on my presence outside of school. I made apps and started playing volleyball again. I stopped seeking validation from school, and started thinking about how the concepts I learn in school can be used outside of school. I carried this mindset into my first year at Western University, I joined clubs. I won hackathons. I made a network of friends. I turned Western into my “dream university.”</p>
+          </div>
+          <div className='questions'>
+            <h3>What is something you could talk about for hours?</h3>
+            <p>Baymax. I could talk about Baymax for hours. Baymax is an animated character from the movie Big-Hero 6. He’s a robot, capable of diagnosing health conditions, holding a conversation, and being a cuddly buddy. Why can I talk about him for hours? Because it’s my dream to make him in real life. With regards to my education, I often measure myself by thinking “How close am I to making Baymax.” I’m even planning on doing a dual-degree with CS and Mechatronics. There are some unrealistic features to his design, like his ability to fly, but my goal is to start off small. If I can give him the ability to fly, I can basically do anything, right? Regardless of feasibility I write down every idea that comes into my head on a Notion page, regarding the materials, software, and hardware that is required. Interestingly, Baymax is being built at Carnegie Mellon University, but my only gripe is that it pays zero attention to the original design. I think somewhere along the way, they focused on feasibility over design. I believe they lost the spirit of the project, which is something I want to fix when I start developing.</p>
+          </div>
+          <div className='questions'>
+            <h3>What scares you?</h3>
+            <p>I’m scared of dying. No, I lied. I’m scared of dying with regrets. Perhaps that’s not right either. It’s hard to believe that nobody dies without any regrets. I don’t want to wake up one day and regret not taking action with my life. The scariest part about it, is not knowing it’s happening. Overtime I may slowly become complacent, lose my ambition, and have my dreams stay as fantasies. I’m pursing computer science and engineering because I enjoy developing apps and creating unconventional products for myself. I’m developing my technical skills to create solutions for problems that I find in my life. A dream of mine is designing and developing one of these products and having it used by everyone in North America. Do I know where to start? No. Will I probably fail? Yes. Do I have the courage to try? Yes (: Losing the ambition to ideate on my ideas would become my greatest regrets in the future. As scary as this sounds, I’m grateful to say that I’m surrounded by an abundance of hard-working and ambitious friends. So, for now I’ll focus on what I’m doing in the present and worry less about the future.</p>
+          </div>
         </div>
 
       </main>
-      <footer></footer>
+      <footer>
+          <div className='footerText'>
+            <p>Created by James Yang</p>
+            <p>2023/10/10</p>
+          </div>
+          <div className='footerLinks'>
+            <a href='https://github.com/HaoChiBao' target='_blank'>
+              {/* github icon */}
+              <img src='https://img.icons8.com/ios-filled/50/000000/github.png' alt='github' />
+            </a>
+            <a href='https://www.linkedin.com/in/james-yang-054433251/' target='_blank'>
+              {/* linkedin icon */}
+              <img src='https://img.icons8.com/ios-filled/50/000000/linkedin.png' alt='linkedin' />
+            </a>
+            <a href='https://www.instagram.com/jamesyang.jpg/' target='_blank'>
+              {/* instagram icon */}
+              <img src='https://img.icons8.com/ios-filled/50/000000/instagram-new.png' alt='instagram' />
+            </a>
+          </div>
+      </footer>
     </div>
   );
 }
