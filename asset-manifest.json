@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cansbridgeFellowshipApp/static/css/main.9b0749f9.css",
-    "main.js": "/cansbridgeFellowshipApp/static/js/main.c1e08bbb.js",
+    "main.css": "/cansbridgeFellowshipApp/static/css/main.383bdcd4.css",
+    "main.js": "/cansbridgeFellowshipApp/static/js/main.3668f78d.js",
     "static/media/william.jpg": "/cansbridgeFellowshipApp/static/media/william.858a1495c12ea8b48ffc.jpg",
     "static/media/soup.jpg": "/cansbridgeFellowshipApp/static/media/soup.b91be35bcb05554b6f2b.jpg",
     "static/media/duck.png": "/cansbridgeFellowshipApp/static/media/duck.135ef04113ce75df71fd.png",
     "index.html": "/cansbridgeFellowshipApp/index.html",
-    "main.9b0749f9.css.map": "/cansbridgeFellowshipApp/static/css/main.9b0749f9.css.map",
-    "main.c1e08bbb.js.map": "/cansbridgeFellowshipApp/static/js/main.c1e08bbb.js.map"
+    "main.383bdcd4.css.map": "/cansbridgeFellowshipApp/static/css/main.383bdcd4.css.map",
+    "main.3668f78d.js.map": "/cansbridgeFellowshipApp/static/js/main.3668f78d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b0749f9.css",
-    "static/js/main.c1e08bbb.js"
+    "static/css/main.383bdcd4.css",
+    "static/js/main.3668f78d.js"
   ]
 }
